@@ -1,0 +1,33 @@
+.comment-form-container {
+  margin-top: 24px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.comment-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border: 1px solid #f1f5f9;
+  border-radius: 6px;
+  background-color: #f8fafc;
+  resize: vertical;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  transition: all 0.2s;
+  outline: none;
+}
+
+.comment-textarea:focus {
+  background-color: #fff;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
